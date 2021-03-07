@@ -1,0 +1,590 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,700,600|Aleo:400");
+* {
+  box-sizing: border-box;
+}
+.abhayalibreextrabold-regular-normal-black-24px {
+  color: black;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abhayalibreextrabold-regular-normal-black-48px {
+  color: black;
+  font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.aleo-normal-san-juan-24px {
+  color: var(--san-juan);
+  font-family: "Aleo", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.border-1px-bon-jour {
+  border: 1px solid var(--bon-jour);
+}
+.border-1px-pastel-pink {
+  border: 1px solid var(--pastel-pink);
+}
+.desktop-datawarehouse {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60444a986d9029b33a14ac91/releases/60445f00b240a3cf30940c14/img/desktop-datawarehouse@1x.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 4500px;
+  padding: 74px 53.1px;
+  width: 1600px;
+}
+.desktop-datawarehouse .about {
+  height: 19px;
+  margin-left: 104px;
+  width: 51px;
+}
+.desktop-datawarehouse .auto-flex {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 17.01px;
+  margin-top: 25px;
+  min-width: 1239px;
+}
+.desktop-datawarehouse .auto-flex1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-right: 4.7px;
+  min-width: 1398px;
+}
+.desktop-datawarehouse .banner {
+  height: 491px;
+  left: 0px;
+  position: absolute;
+  top: 27px;
+  width: 1455px;
+}
+.desktop-datawarehouse .bvi {
+  height: 343px;
+  object-fit: cover;
+  width: 524px;
+}
+.desktop-datawarehouse .card-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 550px;
+  left: 17px;
+  min-width: 607px;
+  position: absolute;
+  top: 91px;
+}
+.desktop-datawarehouse .card-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 550px;
+  margin-left: 24px;
+  min-width: 607px;
+}
+.desktop-datawarehouse .card2 {
+  align-items: flex-start;
+  display: flex;
+  height: 550px;
+  left: 649px;
+  min-width: 607px;
+  position: absolute;
+  top: 91px;
+}
+.desktop-datawarehouse .card3 {
+  align-items: flex-start;
+  display: flex;
+  height: 550px;
+  min-width: 607px;
+}
+.desktop-datawarehouse .contact {
+  height: 14px;
+  margin-left: 116px;
+  width: 63px;
+}
+.desktop-datawarehouse .feature-cities {
+  height: 89px;
+  letter-spacing: 0px;
+  line-height: 62.4px;
+  margin-left: 17px;
+  margin-top: 86px;
+  min-height: 89px;
+  text-align: center;
+  width: 609px;
+}
+.desktop-datawarehouse .gl {
+  height: 336px;
+  object-fit: cover;
+  width: 523px;
+}
+.desktop-datawarehouse .group {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  margin-left: 834px;
+  margin-top: 22.19px;
+  min-width: 420px;
+  padding: 4.5px 0;
+}
+.desktop-datawarehouse .group-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 79px;
+  justify-content: center;
+  margin-left: 26.23px;
+  margin-top: 66px;
+  min-width: 943px;
+}
+.desktop-datawarehouse .is-it-safe-to-t-ummer-722x406-1 {
+  height: 492px;
+  left: 591px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 860px;
+}
+.desktop-datawarehouse .learn-more {
+  letter-spacing: 0px;
+  min-height: 25px;
+  text-align: center;
+  width: 168px;
+}
+.desktop-datawarehouse .lm1 {
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-left: 19.78px;
+  margin-top: 1px;
+  overflow: hidden;
+  padding: 0 30.6px;
+  width: 235px;
+}
+.desktop-datawarehouse .lm2 {
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  left: 839px;
+  overflow: hidden;
+  padding: 0 30.6px;
+  position: absolute;
+  top: 563px;
+  width: 235px;
+}
+.desktop-datawarehouse .lm2-1 {
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  left: 151px;
+  overflow: hidden;
+  padding: 0 30.6px;
+  position: absolute;
+  top: 46px;
+  width: 235px;
+}
+.desktop-datawarehouse .lm2-2 {
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  left: 138px;
+  overflow: hidden;
+  padding: 0 30.6px;
+  position: absolute;
+  top: 51px;
+  width: 235px;
+}
+.desktop-datawarehouse .newzeland {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  margin-top: 21px;
+  min-height: 67px;
+  text-align: center;
+  width: 515px;
+}
+.desktop-datawarehouse .nz {
+  height: 343px;
+  margin-left: 1.35px;
+  object-fit: cover;
+  width: 525px;
+}
+.desktop-datawarehouse .overlap-group {
+  height: 640px;
+  margin-right: 29px;
+  position: relative;
+  width: 1261px;
+}
+.desktop-datawarehouse .overlap-group1 {
+  align-self: flex-end;
+  height: 518px;
+  position: relative;
+  width: 1455px;
+}
+.desktop-datawarehouse .overlap-group2 {
+  height: 492px;
+  left: 0px;
+  position: absolute;
+  top: -1px;
+  width: 1451px;
+}
+.desktop-datawarehouse .overlap-group2-1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60444a986d9029b33a14ac91/releases/60445f00b240a3cf30940c14/img/alerts---toast@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 128px;
+  justify-content: flex-end;
+  margin-top: -14.37px;
+  min-width: 992px;
+  padding: 24px 28.1px;
+}
+.desktop-datawarehouse .overlap-group2-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  padding: 24.5px 37.5px;
+  width: 605px;
+}
+.desktop-datawarehouse .overlap-group2-3 {
+  align-self: center;
+  height: 100px;
+  margin-left: 0.32px;
+  margin-top: 33px;
+  position: relative;
+  width: 515px;
+}
+.desktop-datawarehouse .overlap-group2-4 {
+  align-self: center;
+  height: 105px;
+  margin-left: 3.68px;
+  margin-top: 35px;
+  position: relative;
+  width: 515px;
+}
+.desktop-datawarehouse .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  padding: 47px 35.9px;
+  width: 605px;
+}
+.desktop-datawarehouse .overlap-group4 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  padding: 35.3px 38.9px;
+  width: 605px;
+}
+.desktop-datawarehouse .overlap-group5 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+  padding: 35.4px 37.8px;
+  width: 605px;
+}
+.desktop-datawarehouse .place {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-left: 1.68px;
+  margin-top: 21px;
+  min-height: 67px;
+  text-align: center;
+  width: 515px;
+}
+.desktop-datawarehouse .place-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 515px;
+}
+.desktop-datawarehouse .safe-flights {
+  left: 59px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 0px;
+  width: 454px;
+}
+.desktop-datawarehouse .screenshot-2021-03-06-at-629-1 {
+  height: 330px;
+  object-fit: cover;
+  width: 400px;
+ 
+}
+.desktop-datawarehouse .span {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+}
+.desktop-datawarehouse .span1 {
+  color: rgba(48, 71, 94, 1);
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+}
+.desktop-datawarehouse .tab-small-icon-active-left {
+  height: 56px;
+  width: 83px;
+}
+.desktop-datawarehouse .text-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 240px;
+  width: 454px;
+}
+.desktop-datawarehouse .text-2 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 0px;
+  width: 614px;
+}
+.desktop-datawarehouse .text-3 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 38.4px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 1261px;
+}
+.desktop-datawarehouse .text-4 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 515px;
+}
+.desktop-datawarehouse .tw {
+  height: 343px;
+  object-fit: cover;
+  width: 525px;
+}
+.desktop-datawarehouse .wishlist {
+  align-self: flex-start;
+  height: 15px;
+  width: 68px;
+}
+.desktop-datawarehouse .wizzard-2 {
+  height: 48px;
+  margin-left: 9.48px;
+  margin-top: 103px;
+  width: 786px;
+}
+.inter-bold-black-24px {
+  color: black;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.inter-medium-white-20px {
+  color: white;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.inter-normal-white-24px {
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.inter-semi-bold-black-40px {
+  color: black;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+:root {
+  --bon-jour: rgba(224, 224, 224, 1);
+  --pastel-pink: rgba(252, 209, 209, 0.5);
+  --san-juan: rgba(40, 76, 112, 1);
+  --white: rgba(255, 255, 255, 0.5);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*	
+	Side Navigation Menu V2, RWD
+	===================
+	Author: https://github.com/pablorgarcia
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+h2 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1.5em;
+    padding: 10px;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+    margin-top: 2%;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 5%;
+	  padding-top: 5%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #FB667A; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}

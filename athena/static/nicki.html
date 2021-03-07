@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script>
+    window.onload = function() {
+  setData();
+};
+    function setData(){
+        console.log('erorrrrr');
+        console.log(localStorage['objectToPass']);
+    var myData = JSON.parse(localStorage['objectToPass']);
+        //localStorage.removeItem( 'objectToPass' ); // Clear the localStorage
+        console.log(myData)
+        var county = myData["county"];
+        var risklevel = myData["riskLevels"];
+        var nc=myData["newCases"];
+        var ir=myData["infectionRate"];
+        var ncd=myData["newCasesDensity"];
+        var vcc=myData["Vaccination"];
+        document.getElementById("riskLevels").innerHTML =risklevel;
+        document.getElementById("newCases").innerHTML =nc;
+        document.getElementById("infectionRate").innerHTML =ir;
+        document.getElementById("newCasesDensity").innerHTML =ncd;
+        document.getElementById("vaccinationsCompletedRatio").innerHTML =vcc;
+        document.getElementById("county").innerHTML =county;
+        
+        //alert('firstData: ' + firstData + '\nsecondData: ' + secondData);    
+    }
+</script>
+</head>
+<div class="desktop-datawarehouse">
+  
+    
+  <div class="overlap-group1">
+    <div class="banner">
+      <div class="overlap-group2">
+        <img
+          class="is-it-safe-to-t-ummer-722x406-1"
+          src="https://anima-uploads.s3.amazonaws.com/projects/60444a986d9029b33a14ac91/releases/60445f00b240a3cf30940c14/img/is-it-safe-to-travel-this-summer-722x406-1@1x.svg"
+        />
+        <div class="text-2 inter-semi-bold-black-40px" style="margin-left: 30px;font-weight: bolder;">
+            
+            Going to <span id="county"></span> <br /> <div style="margin-left: 90px;">Be Covid</div> <br/><img class="screenshot-2021-03-06-at-629-1" src="unagi.png"/></div>
+      </div>
+      <div class="text-1 inter-normal-white-24px" style="margin-top: 240px;">
+        <span 
+          > We will help you plan with all the information you need to stay safe.
+        </span>
+      </div>
+    </div>
+    <div class="safe-flights aleo-normal-san-juan-24px" style="display: none;">SafeFlights</div>
+  </div>
+ 
+  <h1 class="feature-cities valign-text-middle abhayalibreextrabold-regular-normal-black-48px">Travel Hazards</h1>
+  <div class="overlap-group">
+    <div class="text-3 abhayalibreextrabold-regular-normal-black-24px">
+      
+    </div>
+    <div class="card-1">
+      <div class="overlap-group2-2 border-1px-pastel-pink">
+        <div class="flip-card" style="margin-top:17px;">
+            <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="http://www.cdc.gov/coronavirus/2019-ncov/travelers/images/COVID-19-Global-Travel-Badge_300x250.jpg" alt="Avatar" style="width:500px;height:500px;">
+                    </div>
+            <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                <p>We love that guy</p>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="card2">
+      <div class="overlap-group3 border-1px-pastel-pink">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="http://www.cdc.gov/coronavirus/2019-ncov/travelers/images/COVID-19-Global-Travel-Badge_300x250.jpg" alt="Avatar" style="width:500px;height:500px;">
+                    </div>
+            <div class="flip-card-back" style="color:#A7A1AE;
+  background-color:#1F2739;">
+                 <h1><span class="yellow">Covid Data</span></h1>
+                    
+                    <table class="container">
+                        
+                        <tbody>
+                            <tr>
+                                <td>Risk Level</td>
+                                <td id="riskLevels"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>New Cases</td>
+                                <td id="newCases"></td>
+                            </tr>
+                            <tr>
+                                <td>Infection Rate</td>
+                                <td id="infectionRate"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>New Cases per capita</td>
+                                <td id="newCasesDensity"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Vaccination</td>
+                                <td id="vaccinationsCompletedRatio"></td>
+                                
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    
+            </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+<!--    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="http://www.cdc.gov/coronavirus/2019-ncov/travelers/images/COVID-19-Global-Travel-Badge_300x250.jpg" alt="Avatar" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>John Doe</h1> 
+      <p>Architect & Engineer</p> 
+      <p>We love that guy</p>
+    </div>
+  </div>
+-->
+</div>
+</div>
