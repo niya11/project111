@@ -1,0 +1,322 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:700,500,400,600|Aleo:400|Roboto:700,500,400");
+
+* {
+  box-sizing: border-box;
+}
+.aleo-normal-san-juan-24px {
+  color: var(--san-juan);
+  font-family: "Aleo", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.inter-bold-black-24px {
+  color: black;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-bold-san-juan-64px {
+  color: var(--san-juan);
+  font-family: "Roboto", Helvetica;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+.roboto-medium-manatee-14px {
+  color: var(--manatee);
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-normal-blue-bell-14px {
+  color: var(--blue-bell);
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.wishlist {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60444a986d9029b33a14ac91/releases/6044ea623d2b4f296dfbcfe8/img/safety@1x.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 2136px;
+  overflow: hidden;
+  padding: 74px 0;
+  width: 1600px;
+}
+.wishlist .about {
+  letter-spacing: 0px;
+  line-height: 24px;
+  min-height: 25px;
+  white-space: nowrap;
+  width: 44px;
+}
+.wishlist .auto-flex {
+  align-items: flex-start;
+  display: flex;
+  height: 160px;
+  margin-left: 86.18px;
+  min-width: 1398px;
+}
+.wishlist .auto-flex1 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 91px;
+  margin-top: 112px;
+  min-width: 1261px;
+}
+.wishlist .card-1 {
+  height: 498px;
+  width: 617px;
+}
+.wishlist .card-2 {
+  height: 498px;
+  margin-left: 27px;
+  width: 617px;
+}
+.wishlist .card-3 {
+  height: 498px;
+  left: 0px;
+  position: absolute;
+  top: 76px;
+  width: 617px;
+}
+.wishlist .card-4 {
+  height: 498px;
+  left: 644px;
+  position: absolute;
+  top: 76px;
+  width: 617px;
+}
+.wishlist .combined-shape {
+  height: 18px;
+  left: 1399px;
+  position: absolute;
+  top: 122px;
+  width: 19px;
+}
+.wishlist .combined-shape-1 {
+  height: 18px;
+  left: 1246px;
+  position: absolute;
+  top: 122px;
+  width: 19px;
+}
+.wishlist .contact {
+  height: 15px;
+  margin-left: 52px;
+  width: 55px;
+}
+.wishlist .contact-1 {
+  height: 14px;
+  margin-left: 116px;
+  width: 63px;
+}
+.wishlist .footer {
+  align-items: flex-start;
+  display: flex;
+  height: 176px;
+  margin-left: 2px;
+  margin-top: 258px;
+  min-width: 1602px;
+}
+.wishlist .group {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  margin-left: 27.9px;
+  margin-top: 26px;
+  min-width: 420px;
+  padding: 4.5px 0.5px;
+}
+.wishlist .group-1 {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  left: 18px;
+  min-width: 420px;
+  padding: 4.5px 0;
+  position: absolute;
+  top: 7px;
+}
+.wishlist .group-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 25px;
+  left: 184px;
+  min-width: 167px;
+  position: absolute;
+  top: 118px;
+}
+.wishlist .image-3 {
+  height: 51px;
+  left: 522px;
+  object-fit: cover;
+  position: absolute;
+  top: 483px;
+  width: 47px;
+}
+.wishlist .image-4 {
+  height: 51px;
+  left: 1166px;
+  object-fit: cover;
+  position: absolute;
+  top: 491px;
+  width: 47px;
+}
+.wishlist .logo {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 160px;
+  width: 146px;
+}
+.wishlist .my-wishlist {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-left: 2px;
+  margin-top: 112px;
+  min-height: 44px;
+  text-align: center;
+  width: 1602px;
+}
+.wishlist .overlap-group {
+  height: 574px;
+  margin-right: 91px;
+  margin-top: 68px;
+  position: relative;
+  width: 1261px;
+}
+.wishlist .overlap-group1 {
+  height: 41px;
+  margin-left: 814px;
+  margin-top: 15px;
+  position: relative;
+  width: 438px;
+}
+.wishlist .overlap-group2 {
+  height: 177px;
+  margin-top: -0.67px;
+  position: relative;
+  width: 1601px;
+}
+.wishlist .path {
+  height: 14px;
+  left: 1297px;
+  position: absolute;
+  top: 124px;
+  width: 19px;
+}
+.wishlist .path-1 {
+  height: 18px;
+  left: 1199px;
+  position: absolute;
+  top: 122px;
+  width: 10px;
+}
+.wishlist .place {
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin-left: 64px;
+  min-height: 25px;
+  white-space: nowrap;
+}
+.wishlist .recommendations {
+  left: 461px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 352px;
+}
+.wishlist .rectangle {
+  background-color: var(--jagged-ice);
+  height: 176px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 1600px;
+}
+.wishlist .rectangle-1 {
+  background-color: var(--tiara);
+  height: 1px;
+  left: 184px;
+  position: absolute;
+  top: 96px;
+  width: 1233px;
+}
+.wishlist .rectangle-3 {
+  background-color: var(--jagged-ice);
+  border-radius: 20px;
+  height: 41px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 103px;
+}
+.wishlist .safe-flights {
+  letter-spacing: 0px;
+  min-height: 27px;
+  width: 139px;
+}
+.wishlist .safety {
+  height: 15px;
+  margin-bottom: 3.51px;
+  margin-left: 48px;
+  width: 112px;
+}
+.wishlist .safety-1 {
+  height: 19px;
+  margin-left: 104px;
+  width: 51px;
+}
+.wishlist .screenshot-2021-03-06-at-629-1 {
+  height: 133px;
+  margin-right: 2px;
+  object-fit: cover;
+  width: 144px;
+}
+.wishlist .shape {
+  height: 13px;
+  left: 1348px;
+  position: absolute;
+  top: 125px;
+  width: 19px;
+}
+.wishlist .textlabel {
+  left: 184px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  position: absolute;
+  top: 56px;
+  white-space: nowrap;
+  width: 150px;
+}
+.wishlist .wishlist {
+  align-self: flex-start;
+  height: 15px;
+  width: 132px;
+}
+.wishlist .wishlist-1 {
+  align-self: flex-start;
+  height: 15px;
+  width: 68px;
+}
+:root {
+  --blue-bell: rgba(146, 158, 204, 1);
+  --jagged-ice: rgba(190, 228, 237, 1);
+  --manatee: rgba(147, 158, 164, 1);
+  --san-juan: rgba(40, 76, 112, 1);
+  --tiara: rgba(205, 209, 212, 1);
+}
+
+a {
+  z-index: 999;
+
+}

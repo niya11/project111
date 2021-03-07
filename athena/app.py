@@ -8,8 +8,14 @@ import os
 app = Flask(__name__)
 
 @app.route('/')
-def load_page():
+def index():
     return app.send_static_file('index.html')
+
+@app.route('/click')
+def load_page():
+    return app.send_static_file('index2.html')
+
+
 
 @app.route('/covid_data', methods=["GET"])
 
